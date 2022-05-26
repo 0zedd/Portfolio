@@ -1,4 +1,4 @@
-.container{display: flex;flex-direction: column;height: 718px;width: 375px;position: absolute;background-color: #FFFFFF;}
+.container { display: flex; flex-direction: column; height: 718px; width: 375px; position: absolute; background-color: #fff; }
 .header_container{display: flex;justify-content: space-between;}
 input{color: #6070FF;border: none;width: 76px;height: 40px;left: 12px;width: 100px;font-family: 'Poppins';padding: 10px 12px 10px 12px;text-align: center;font-weight: bolder;font-size: 20px;}
 img{padding-inline-end: 20px;width: 30px;}
