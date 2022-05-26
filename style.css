@@ -68,8 +68,9 @@ button {
   cursor: pointer;
 }
 
-button:hover {
-  background-color: #61dde4f5;
+h3 {
+  color: #6070ff;
+  margin-left: 18px;
 }
 
 .arc {
@@ -102,4 +103,8 @@ button:hover {
   height: 20px;
   left: 237px;
   top: 657.1px;
+}
+
+ul {
+  list-style: none;
 }
