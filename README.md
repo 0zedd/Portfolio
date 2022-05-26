@@ -1,12 +1,12 @@
 # Portofolio
 
-> Project is a welcome message to microverse
+> Project is about a mobile version of a portofolio.
 
 
 ## Built With
 
 - HTML, CSS
-- Frameworks
+- Figma
 - NPM , STYLELINT, LIGHTHOUSE
 
 ## Live Demo (if available)
@@ -25,10 +25,8 @@ To get a local copy up and running follow these simple example steps.
 ### Clone the project into your local directory
 
 ### Setup Git or a code editor
-   
-### Install NPM , STYLELINT, WEBHINT, LIGHTHOUSE
 
-### Usage run NPM
+### Usage run Index.html in your local repository or Open in a web browser
 
 
 
@@ -40,7 +38,7 @@ To get a local copy up and running follow these simple example steps.
 - GitHub: [@githubhandle](https://github.com/0zedd)
 - Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
 - LinkedIn: [LinkedIn](www.linkedin.com/in/zedekiah-atapagra)
-- 
+
 👤
 ## 🤝 Contributing
 
