@@ -909,6 +909,12 @@ button:hover {
     color: #344563;
     line-height: 20px;
     gap: 8px;
+    transition: 1s;
+  }
+
+  .nav_ul:hover {
+    color: #7f8cff;
+    cursor: pointer;
   }
 
   .menuim {
@@ -960,6 +966,12 @@ button:hover {
     margin-top: 370px;
     margin-bottom: 12px;
     letter-spacing: 0.37px;
+    transition: 1s ease-in;
+  }
+
+  .info_box:hover {
+    color: #8300e0;
+    transform: scale(1.2);
   }
 
   .body_section {
@@ -970,6 +982,13 @@ button:hover {
     font-weight: 400;
     margin-left: 260px;
     margin-right: 260px;
+    transition: 1s;
+  }
+
+  .body_section:hover {
+    color: #7f8cff;
+    transform: scale(1.5);
+    transform: translate(-10%);
   }
 
   .contact_section {
@@ -985,26 +1004,51 @@ button:hover {
   .two {
     width: 50%;
     height: auto;
+    transition: 1s;
+  }
+
+  .two:hover {
+    transform: scale(2);
   }
 
   .bird {
     width: 50%;
     height: auto;
+    transition: 1s;
+  }
+
+  .bird:hover {
+    transform: scale(2);
   }
 
   .m {
     width: 50%;
     height: auto;
+    transition: 1s;
+  }
+
+  .m:hover {
+    transform: scale(2);
   }
 
   .n {
     width: 50%;
     height: auto;
+    transition: 1s;
+  }
+
+  .n:hover {
+    transform: scale(2);
   }
 
   .cat {
     width: 50%;
     height: auto;
+    transition: 1s;
+  }
+
+  .cat:hover {
+    transform: scale(2);
   }
 
   .section_works_container {
