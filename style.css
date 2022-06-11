@@ -930,6 +930,11 @@ button:hover {
     height: 224px;
     left: 1180px;
     top: 191px;
+    transition: 1s;
+  }
+
+  .arc:hover {
+    transform: rotate(360deg);
   }
 
   .bar {
@@ -1066,6 +1071,11 @@ button:hover {
     top: 950px;
     width: 544px;
     height: 448px;
+    transition: 1s;
+  }
+
+  .sec_in:hover {
+    transform: scale(1.2);
   }
 
   .tonic {
@@ -1074,6 +1084,12 @@ button:hover {
     width: 496px;
     font-size: 40px;
     line-height: 52px;
+    transition: 2s;
+  }
+
+  .tonic:hover {
+    color: #dc143c;
+    transform: rotate(45deg);
   }
 
   .sec_h {
@@ -1091,12 +1107,23 @@ button:hover {
     margin-left: 756px;
     margin-right: 188px;
     margin-top: 170px;
+    transition: 1s ease-in-out;
+  }
+
+  .p:hover {
+    transform: scale(1.2);
+    color: #253858;
   }
 
   .push {
     padding-left: 0;
     width: 203px;
     margin-left: 756px;
+    transition: 1s;
+  }
+
+  .push:hover {
+    transform: scale(1.5);
   }
 
   button {
@@ -1119,6 +1146,11 @@ button:hover {
     top: 1570px;
     width: 544px;
     height: 448px;
+    transition: 1s;
+  }
+
+  .nxt_wk:hover {
+    transform: scale(1.2);
   }
 
   .worktwo {
@@ -1178,6 +1210,11 @@ button:hover {
     top: 2170px;
     width: 544px;
     height: 448px;
+    transition: 1s;
+  }
+
+  .third_wk:hover {
+    transform: scale(1.2);
   }
 
   .workthree {
@@ -1241,6 +1278,11 @@ button:hover {
     top: 2775px;
     width: 544px;
     height: 448px;
+    transition: 1s;
+  }
+
+  .forth_wk:hover {
+    transform: scale(1.2);
   }
 
   .workfour {
