@@ -68,6 +68,37 @@ img {
   display: flex;
 }
 
+.sec_icn {
+  margin-left: 18px;
+  width: 180px;
+  padding: 0;
+}
+
+.two {
+  width: 15px;
+  height: auto;
+}
+
+.bird {
+  width: 20px;
+  height: auto;
+}
+
+.m {
+  width: 20px;
+  height: auto;
+}
+
+.n {
+  width: 15px;
+  height: auto;
+}
+
+.cat {
+  width: 15px;
+  height: auto;
+}
+
 a {
   color: #525ec7;
   text-decoration: none;
@@ -227,6 +258,7 @@ ul {
   display: flex;
   align-items: center;
   margin-left: 40px;
+  font-family: 'Poppins', sans-serif;
   margin-right: 40px;
   margin-top: -30px;
   color: #7a869a;
@@ -289,9 +321,6 @@ ul {
 }
 
 button {
-  display: flex;
-  align-items: center;
-  text-align: center;
   font-weight: 500;
   box-sizing: border-box;
   line-height: 24px;
@@ -332,6 +361,7 @@ button {
 .p2 {
   display: flex;
   align-items: center;
+  font-family: 'Poppins', sans-serif;
   margin-left: 40px;
   margin-right: 40px;
   margin-top: -30px;
@@ -360,9 +390,6 @@ button {
 }
 
 .button1 {
-  display: flex;
-  align-items: center;
-  text-align: center;
   font-weight: 500;
   box-sizing: border-box;
   line-height: 24px;
@@ -412,6 +439,7 @@ button {
   margin-left: 40px;
   margin-right: 40px;
   margin-top: -30px;
+  font-family: 'Poppins', sans-serif;
   color: #7a869a;
   font-size: 15px;
   height: 76px;
@@ -442,9 +470,6 @@ button {
 }
 
 .button3 {
-  display: flex;
-  align-items: center;
-  text-align: center;
   font-weight: 500;
   box-sizing: border-box;
   line-height: 24px;
@@ -452,8 +477,8 @@ button {
   font-family: 'Poppins', sans-serif;
   border: 1px solid #6070ff;
   cursor: pointer;
-  color: #6070ff;
-  background-color: #fff;
+  background: #2230d2;
+  color: #fff;
   gap: 10px;
   padding: 12px;
   width: 149px;
@@ -494,6 +519,7 @@ button {
   align-items: center;
   margin-left: 40px;
   margin-right: 40px;
+  font-family: 'Poppins', sans-serif;
   margin-top: -30px;
   color: #7a869a;
   font-size: 15px;
@@ -519,19 +545,16 @@ button {
 }
 
 .button4 {
-  display: flex;
-  align-items: center;
-  text-align: center;
   font-weight: 500;
   box-sizing: border-box;
   line-height: 24px;
   font-size: 17px;
   font-family: 'Poppins', sans-serif;
-  border: 1px solid #6070ff;
+  border: 1px solid #5e6c84;
   cursor: pointer;
-  color: #6070ff;
-  background-color: #fff;
   gap: 10px;
+  background: #e5e5e5;
+  color: #5e6c84;
   padding: 12px;
   width: 149px;
   margin-left: 40px;
@@ -542,10 +565,10 @@ button {
 .about_section_container {
   display: flex;
   flex-direction: column;
-  height: 1000px;
   border-radius: 16px;
   margin-left: 14px;
   margin-right: 14px;
+  height: auto;
 }
 
 .about_my {
@@ -591,9 +614,6 @@ button {
 }
 
 .button5 {
-  display: flex;
-  align-items: center;
-  text-align: center;
   font-weight: 500;
   box-sizing: border-box;
   line-height: 24px;
@@ -618,6 +638,7 @@ button {
   color: #000;
   border-left: 36px;
   border-right: 102px;
+  font-family: 'Poppins', sans-serif;
   font-size: 20px;
   row-gap: 35px;
   line-height: 24px;
@@ -739,12 +760,23 @@ button {
 }
 
 .submit {
-  margin-left: -15px;
+  margin-left: 15px;
   margin-bottom: 45px;
 }
 
-button:hover {
-  background-color: #6febeb;
+.submit:hover {
+  background: #6070ff;
+  color: #fff;
+}
+
+.button5:hover {
+  background: #6070ff;
+  color: #fff;
+}
+
+.button1:enabled {
+  background: #fff;
+  color: #6070ff;
 }
 
 .footbar {
@@ -797,10 +829,9 @@ button:hover {
 
 @media screen and (min-width: 768px) {
   .container {
-    width: 1440px;
+    width: 100%;
     display: flex;
     flex-direction: column;
-    border: solid;
     margin: 0;
   }
 }
@@ -890,7 +921,34 @@ button:hover {
   }
 
   .sec_icn {
-    margin-left: 210px;
+    margin-left: 250px;
+    width: 15%;
+    padding-left: 0;
+  }
+
+  .two {
+    width: 50%;
+    height: auto;
+  }
+
+  .bird {
+    width: 50%;
+    height: auto;
+  }
+
+  .m {
+    width: 50%;
+    height: auto;
+  }
+
+  .n {
+    width: 50%;
+    height: auto;
+  }
+
+  .cat {
+    width: 50%;
+    height: auto;
   }
 
   .section_works_container {
@@ -984,6 +1042,7 @@ button:hover {
   .p2 {
     display: flex;
     align-items: flex-start;
+    font-family: 'Poppins', sans-serif;
     font-size: 16px;
     padding: 5px;
     height: 70px;
@@ -1042,6 +1101,7 @@ button:hover {
     align-items: flex-start;
     font-size: 16px;
     padding: 5px;
+    font-family: 'Poppins', sans-serif;
     height: 70px;
     width: 496px;
     margin-left: 614px;
@@ -1098,6 +1158,7 @@ button:hover {
     display: flex;
     align-items: flex-start;
     font-size: 16px;
+    font-family: 'Poppins', sans-serif;
     padding: 5px;
     height: 70px;
     width: 496px;
@@ -1156,13 +1217,13 @@ button:hover {
     position: absolute;
     top: 84px;
     left: 24px;
-    height: 120px;
+    height: auto;
   }
 
   .lasht {
     width: 122px;
     left: 162px;
-    height: 120px;
+    height: auto;
     position: absolute;
     top: 84px;
   }
@@ -1171,8 +1232,8 @@ button:hover {
     position: absolute;
     left: 297px;
     top: 84px;
-    width: 122px;
-    height: 120px;
+    width: 20%;
+    height: auto;
   }
 
   #fr {
@@ -1188,18 +1249,22 @@ button:hover {
   }
 
   .jss {
-    width: 56px;
-    height: 56px;
+    width: 30%;
+    height: auto;
   }
 
   .htt {
-    width: 56px;
-    height: 56px;
+    width: 30%;
+    height: auto;
+    flex-direction: column;
+    display: flex;
   }
 
   .cxx {
-    width: 56px;
-    height: 56px;
+    width: 30%;
+    height: auto;
+    flex-direction: column;
+    display: flex;
   }
 
   .sep1 {
@@ -1226,10 +1291,12 @@ button:hover {
   .cont_input {
     margin-left: 436px;
     margin-right: 435px;
+    max-height: 120%;
+    overflow: hidden;
   }
 
   .ul_form {
-    margin-left: 497px;
+    margin-left: 35%;
     margin-right: 496px;
   }
 
@@ -1245,20 +1312,22 @@ button:hover {
   .farc {
     width: 129px;
     height: 129px;
-    margin-left: 900px;
+    margin-left: 50%;
+    top: 4040px;
   }
 
   .frec {
     width: 107px;
     height: 50px;
-    margin-left: 900px;
+    top: 4010px;
+    margin-left: 50%;
   }
 
   .fcircletop {
     width: 107px;
     height: 50px;
-    top: 5063px;
-    left: 700px;
+    top: 4740px;
+    left: 40%;
   }
 
   .fcircle {
