@@ -1,6 +1,6 @@
-# Portofolio Mobile
+# Portofolio
 
-> Project is about a mobile version of a portofolio.
+> Project is about a web mobile version of my portofolio.
 
 
 ## Built With
