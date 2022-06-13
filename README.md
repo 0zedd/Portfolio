@@ -1,6 +1,6 @@
-# Portofolio Mobile
+# Portofolio
 
-> Project is about a mobile version of a portofolio.
+> Project is about a web mobile version of my portofolio.
 
 
 ## Built With
@@ -11,7 +11,7 @@
 
 ## Live Demo (if available)
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://0zedd.github.io/Portfolio/)
 
 
 ## Getting Started
