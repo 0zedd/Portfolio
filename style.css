@@ -392,10 +392,22 @@ button:hover {
 }
 
 .jsdetails {
-  border: solid red;
   display: none;
   width: 375px;
   height: 100vh;
+  position: relative;
+}
+
+@media screen and (max-width: 760px) {
+  .jsdetails.active {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .detaildsk {
+    display: none;
+  }
 }
 
 .tonicjs {
@@ -404,14 +416,16 @@ button:hover {
   font-size: 32px;
   font-weight: 700;
   line-height: 44px;
-  border: solid;
 }
 
 .xman {
-  padding-top: 1.4rem;
+  padding-top: 0.1rem;
   float: right;
-  width: 20%;
-  height: 20%;
+  display: flex;
+  margin-top: -3%;
+  width: 15%;
+  cursor: pointer;
+  height: 15%;
 }
 
 .sec_hjs {
@@ -419,7 +433,6 @@ button:hover {
   align-items: center;
   justify-content: space-between;
   width: 236px;
-  border: solid blue;
   margin-left: 16px;
   margin-top: -10%;
   padding-left: 1px;
@@ -432,7 +445,6 @@ button:hover {
   height: 100%;
   padding: 0%;
   border-radius: 16px;
-  border: solid green;
 }
 
 .pjs {
@@ -447,7 +459,109 @@ button:hover {
   width: 343px;
   margin-top: 0%;
   gap: 12px;
-  border: solid yellow;
+}
+
+.jspush {
+  display: flex;
+  column-gap: 5px;
+  color: #6070ff;
+  margin-left: 16px;
+  width: 343px;
+  padding-left: 0%;
+  border-bottom: 1px solid #ebecf0;
+  height: 50px;
+}
+
+.htmlpop {
+  padding: 4px 12px;
+  display: flex;
+  justify-content: center;
+  font-weight: 500;
+  height: 24px;
+  font-family: 'Poppins', sans-serif;
+  border-radius: 8px;
+  letter-spacing: 0.03em;
+  background-color: #ebebff;
+}
+
+.csspop {
+  display: flex;
+  align-items: center;
+  padding: 4px 12px;
+  font-weight: 500;
+  font-family: 'Poppins', sans-serif;
+  height: 24px;
+  border-radius: 8px;
+  letter-spacing: 0.03em;
+  background-color: #ebebff;
+}
+
+.javapop {
+  display: flex;
+  justify-content: center;
+  font-weight: 500;
+  padding: 4px 12px;
+  height: 24px;
+  border-radius: 8px;
+  align-items: center;
+  background-color: #ebebff;
+  font-family: 'Poppins', sans-serif;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+}
+
+.sideb {
+  display: flex;
+  margin-left: 16px;
+  height: 52px;
+}
+
+.flxb {
+  font-weight: 500;
+  line-height: 20px;
+  font-size: 15px;
+  font-family: 'Poppins', sans-serif;
+  border: 1px solid #6070ff;
+  cursor: pointer;
+  color: #6070ff;
+  padding-right: 56px;
+  background-color: #fff;
+  width: 44%;
+  border-radius: 8px;
+  margin-left: 0;
+}
+
+.flxb2 {
+  font-weight: 500;
+  line-height: 20px;
+  font-size: 15px;
+  font-family: 'Poppins', sans-serif;
+  border: 1px solid #6070ff;
+  cursor: pointer;
+  color: #6070ff;
+  background-color: #fff;
+  width: 40%;
+  border-radius: 8px;
+  padding-left: 0%;
+}
+
+.flxarr {
+  width: 18px;
+  position: absolute;
+  height: 18px;
+  margin-left: 95px;
+  padding-right: 0%;
+  padding-top: 3%;
+}
+
+.flxgh {
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  padding-right: 0%;
+  margin-left: 315px;
+  padding-top: 3%;
 }
 
 .second_work_container {
@@ -945,7 +1059,7 @@ button:hover {
   display: none;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 760px) {
   .frec {
     position: absolute;
     width: 74px;
@@ -988,7 +1102,7 @@ button:hover {
   top: 5110px;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 760px) {
   .container {
     width: 100%;
     display: flex;
@@ -997,7 +1111,7 @@ button:hover {
   }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 760px) {
   .header_container {
     display: flex;
   }
@@ -1163,6 +1277,207 @@ button:hover {
 
   .cat:hover {
     transform: scale(2);
+  }
+
+  .detaildsk {
+    width: 1165px;
+    background: #fff;
+    margin-left: 142px;
+    height: 145vh;
+    display: none;
+    position: absolute;
+  }
+
+  .detaildsk.active {
+    display: block;
+  }
+
+  .jstonic {
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    width: 1056px;
+    margin-left: 24px;
+    padding: 0%;
+    font-size: 40px;
+    line-height: 52px;
+    color: #172b4d;
+    font-weight: 700;
+  }
+
+  .desk {
+    width: 24%;
+    height: 24%;
+    margin-left: 900px;
+    margin-top: 5%;
+    cursor: pointer;
+  }
+
+  .jssdesk {
+    position: absolute;
+    margin-left: 24px;
+    margin-top: -50px;
+    width: 297px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 1px;
+    color: #172b4d;
+  }
+
+  .desktop {
+    width: 1108px;
+    height: 586px;
+    margin-left: 24px;
+  }
+
+  .deskp {
+    display: flex;
+    font-size: 16px;
+    width: 778px;
+    margin-left: 24px;
+    font-family: 'Poppins', sans-serif;
+    color: #344563;
+    font-weight: 400px;
+    line-height: 30px;
+  }
+
+  .jspushdsk {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 5px;
+    color: #6070ff;
+    margin-left: 826px;
+    width: 20%;
+    padding-left: 0%;
+    border-bottom: 1px solid #ebecf0;
+    height: 150px;
+    margin-top: -27%;
+  }
+
+  .gitdsk {
+    padding: 4px 12px;
+    display: flex;
+    justify-content: center;
+    font-weight: 500;
+    height: 24px;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 8px;
+    letter-spacing: 0.03em;
+    margin-top: -10%;
+    font-size: 12px;
+    background-color: #ebebff;
+  }
+
+  .rubydsk {
+    padding: 4px 12px;
+    display: flex;
+    font-size: 12px;
+    justify-content: center;
+    font-weight: 500;
+    margin-top: -10%;
+    height: 24px;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 8px;
+    letter-spacing: 0.03em;
+    background-color: #ebebff;
+  }
+
+  .bootdsk {
+    padding: 4px 12px;
+    display: flex;
+    justify-content: center;
+    font-weight: 500;
+    height: 24px;
+    font-size: 12px;
+    margin-top: -10%;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 8px;
+    letter-spacing: 0.03em;
+    background-color: #ebebff;
+  }
+
+  .htmldsk {
+    padding: 4px 12px;
+    display: flex;
+    justify-content: center;
+    font-weight: 500;
+    height: 24px;
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 8px;
+    letter-spacing: 0.03em;
+    background-color: #ebebff;
+  }
+
+  .cssdsk {
+    padding: 4px 12px;
+    display: flex;
+    justify-content: center;
+    font-weight: 500;
+    height: 24px;
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 8px;
+    letter-spacing: 0.03em;
+    background-color: #ebebff;
+  }
+
+  .javadsk {
+    padding: 4px 12px;
+    display: flex;
+    justify-content: center;
+    font-weight: 500;
+    height: 24px;
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 8px;
+    letter-spacing: 0.03em;
+    background-color: #ebebff;
+  }
+
+  .sidebdsk {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 5px;
+    color: #6070ff;
+    margin-left: 826px;
+    width: 28%;
+    padding-left: 0%;
+    border-bottom: 1px solid #ebecf0;
+    height: 56px;
+    margin-top: -1%;
+  }
+
+  .flxbdsk {
+    display: flex;
+    height: 40px;
+    margin-left: 0;
+    margin-top: 7px;
+    position: absolute;
+    font-size: 15px;
+  }
+
+  .flxb2dsk {
+    display: flex;
+    height: 40px;
+    margin-left: 160px;
+    margin-top: 7px;
+    position: absolute;
+    font-size: 15px;
+  }
+
+  .flxarrdsk {
+    position: absolute;
+    height: 20px;
+    margin-left: 66px;
+    padding-right: 0%;
+  }
+
+  .flxghdsk {
+    position: absolute;
+    padding: 0%;
+    margin-left: 89px;
+    margin-top: -5%;
   }
 
   .section_works_container {
